@@ -70,6 +70,56 @@ If the user chooses division and the second number (num2) is zero, it will resul
 Result Display:
 
 If the calculation is successful (i.e., no division by zero error), the result is printed to the console.
+
+
+TASK 3:
+A password generator is a useful tool that generates strong and
+
+random passwords for users. This project aims to create a
+password generator application using Python, allowing users to
+
+specify the length and complexity of the password.
+
+User Input: Prompt the user to specify the desired length of the
+
+password.
+
+Generate Password: Use a combination of random characters to
+
+generate a password of the specified length.
+
+Display the Password: Print the generated password on the screen.
+
+
+
+User Input:
+
+The program prompts the user to specify the desired length of the password using input("Enter the desired length of the password: ").
+It also prompts the user to specify the complexity level by inputting either '1' for low complexity, '2' for medium complexity, or '3' for high complexity.
+
+Generate Password Function (generate_password):
+
+This function takes the desired length of the password as an argument.
+A variable chars is initialized as an empty string. This variable will hold the characters from which the password will be generated.
+Based on the complexity level chosen by the user, different character sets are built.
+If the complexity level is '1', the character set includes only lowercase letters, uppercase letters, and digits.
+If the complexity level is '2', additional special characters like symbols are included in the character set.
+If the complexity level is '3', the character set includes even more special characters.
+If the user inputs any other value, the program defaults to medium complexity.
+The function then generates a password of the specified length by randomly selecting characters from the character set and concatenating them together.
+The generated password is returned.
+
+Main Function (main):
+
+This function serves as the entry point of the program.
+It takes no arguments.
+It prompts the user to input the desired length of the password.
+It calls the generate_password function with the specified length.
+It prints the generated password on the screen.
+Execution (if __name__ == "__main__":):
+
+This conditional statement ensures that the main function is only executed if the script is run directly, not if it is imported as a module into another script.
+When the script is run, it starts the execution by calling the main function.
 Invalid Input Handling:
 
 If the user enters an invalid choice that doesn't match any key in the operations dictionary, an "Invalid input" message is displayed.
