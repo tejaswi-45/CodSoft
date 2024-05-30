@@ -203,3 +203,45 @@ Update Contact: Enable users to update contact details.
 Delete Contact: Provide an option to delete a contact.
 
 User Interface: Design a user-friendly interface for easy interaction.
+
+Contact Class:
+
+This class represents a contact with attributes such as name, phone number, email, and address.
+The display method is used to print the contact details.
+
+Contact Book Class:
+
+This class manages a list of contacts.
+It has methods to add, view, search, update, and delete contacts.
+
+Main Function (main):
+
+This function serves as the entry point of the program.
+It creates an instance of the Contact Book class to manage contacts.
+
+Menu Options:
+
+The program displays a menu with options for the user to interact with the contact management system.
+Options include adding a contact, viewing the contact list, searching for a contact, updating a contact, deleting a contact, and exiting the program.
+
+User Input and Function Calls:
+
+Based on the user's choice, the corresponding method of the Contact Book class is called to perform the desired operation.
+For example, if the user chooses to add a contact, they are prompted to enter the contact details, which are then added to the contact list using the add contact method.
+
+Looping and Exiting:
+
+The program runs in a loop until the user chooses to exit by selecting the corresponding option.
+If the user selects the exit option, the loop breaks, and the program terminates with a farewell message.
+
+Functionality:
+
+Adding a contact: Prompts the user to input the contact details and adds the contact to the contact list.
+Viewing the contact list: Displays the details of all saved contacts.
+Searching for a contact: Allows the user to search for a contact by name or phone number and displays matching contacts.
+Updating a contact: Enables the user to update the details of a contact by providing a new set of details.
+Deleting a contact: Allows the user to delete a contact from the contact list based on their name or phone number.
+
+User-Friendly Interface:
+
+The program provides clear instructions and feedback at each step to ensure easy interaction with the contact management system.
