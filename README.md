@@ -159,3 +159,33 @@ Play Again: Ask the user if they want to play another round.
 User Interface: Design a user-friendly interface with clear instructions and
 
 feedback.
+
+Importing Required Module:
+The line imports the random module, which is used to generate random choices for the computer.
+Defining the determine_winner Function:
+he function takes two arguments: user_choice and computer_choice, representing the choices of the user and computer, respectively.
+It compares the choices to determine the winner based on the rules of the game (rock beats scissors, scissors beat paper, and paper beats rock).
+If the choices are the same, it returns "It's a tie!". Otherwise, it returns whether the user or the computer wins.
+
+Defining the main Function:
+
+The function serves as the entry point of the program.
+It initializes a list choices containing the available choices for the game: rock, paper, and scissors.
+It sets up a while loop to allow the user to play the game multiple times until they choose to exit.
+
+User Input and Game Logic:
+The program prints a welcome message and prompts the user to choose between rock, paper, or scissors.
+It displays the choices along with their corresponding numbers using a for loop and the enumerate function.
+It then asks the user to input their choice and stores it as an index in user choice index.
+
+Computer's Choice and Result Display:
+If the user's choice is valid, it proceeds to determine the computer's choice using random.choice(choices).
+It then displays both the user's and computer's choices and determines the winner using the determine winner function.
+
+Play Again:
+After each round, the program asks the user if they want to play again.
+If the user responds with anything other than 'yes', the loop breaks, and the program exits with a farewell message.
+
+Execution:
+This conditional statement ensures that the main function is executed only if the script is run directly, not if it is imported as a module into another script.
+When the script is run, it starts the execution by calling the main function.
